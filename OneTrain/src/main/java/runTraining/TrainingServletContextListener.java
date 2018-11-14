@@ -31,7 +31,7 @@ public class TrainingServletContextListener implements ServletContextListener {
                         try {
                             System.out.println("Running training now...");
 //                            logger.info("Running training now...");
-                            Runtime.getRuntime().exec("sh /Users/prajpoot/Desktop/run.sh");
+                            Runtime.getRuntime().exec("sh runTrain.sh");
                             // TODO: Add code to run training here
                             System.out.println("Completed training.");
 //                            logger.info("Completed training.");
